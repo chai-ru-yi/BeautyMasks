@@ -6,4 +6,15 @@
       <class name="com.sddevops.BeautyMasks.eclipse.NewTest"/>
     </classes>
   </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.sddevops.BeautyMasks.eclipse.NewTest">
+        <methods>
+          <include name="checkTitle1"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.sddevops.BeautyMasks.eclipse.NewTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

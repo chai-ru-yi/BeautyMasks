@@ -2,16 +2,17 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<groupId>com.sddevops</groupId>
 	<artifactId>BeautyMasks</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-	<name>testing1</name>
-	<description>test</description>
-	
+
+	<name>BeautyMasks</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -41,10 +42,10 @@
 		<junit-jupiter.version>5.7.0</junit-jupiter.version>
 
 	</properties>
-	
+
 	<dependencies>
-	
-	<dependency>
+
+		<dependency>
 			<groupId>${selenium.groupId}</groupId>
 			<artifactId>${selenium.artifactId}</artifactId>
 			<version>${selenium.version}</version>
@@ -89,7 +90,7 @@
 			<version>5.7.0</version>
 			<scope>test</scope>
 		</dependency>
-	
+
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -114,7 +115,9 @@
 			<artifactId>jstl</artifactId>
 			<version>1.2</version>
 		</dependency>
+
 	</dependencies>
+
 	<build>
 
 		<plugins>
